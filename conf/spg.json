@@ -1,0 +1,28 @@
+{
+  "schema": {
+    "N": 4,
+    "K": 12
+  },
+
+  "agent": { 
+    "embed_dim": 128,
+    "rnn_dim": 128,
+    "bidirectional": true,
+    "sinkhorn_rds": 10,
+    "sinkhorn_tau": 0.05,
+    "buffer_size": 1000000,
+    "n_workers": 0,
+
+    "epsilon": 1.0,
+    "epsilon_target": 0.05,
+    "epsilon_decay_steps": 1500,
+  
+    "actor_lr": 4e-5,
+    "critic_lr": 2e-4 ,
+    "actor_lr_decay_rate": 0.95,
+    "critic_lr_decay_rate": 0.95,
+    "actor_lr_decay_step": 5000,
+    "critic_lr_decay_step": 5000
+  }
+}
+  

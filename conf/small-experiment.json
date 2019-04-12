@@ -1,0 +1,14 @@
+{
+  "embed_dim": 128,
+  "max_size": 0,
+  "max_runtime": 0,
+  "reward_penalty": 0,
+  "runtime_weight": 1.0,
+  "size_weight": 1.0,
+  "n_selections": 3,
+  "n_executions": 10,
+  "train_episodes": 2,
+  "queries_per_episode": 10,
+  "test_episodes": 1
+}
+
